@@ -15,7 +15,10 @@ public class OpenApiConfig {
     public OpenAPI customOpenAPI() {
         final String schemeName = "bearerAuth";
         return new OpenAPI()
-                .info(new Info().title("Bookstore API").version("1.0.0").description("API REST para librería en línea"))
+                .info(new Info()
+                        .title("Lectura y Punto API")
+                        .version("1.1.0")
+                        .description("API REST para gestionar catalogo, autores, categorias y pedidos de una libreria en linea"))
                 .addSecurityItem(new SecurityRequirement().addList(schemeName))
                 .components(new Components()
                         .addSecuritySchemes(schemeName,
