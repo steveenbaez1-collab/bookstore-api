@@ -1,47 +1,47 @@
-# 📚 Bookstore API
+# Bookstore API
 
 API REST desarrollada con Spring Boot para la gestión de una librería en línea.
 Este proyecto implementa arquitectura por capas, seguridad con JWT, relaciones JPA y un flujo de trabajo colaborativo con Git.
 
 ---
 
-## 🚀 Características
+##  Características
 
-### 🔐 Autenticación y Seguridad
+###  Autenticación y Seguridad
 
 * Registro de usuarios (`/auth/register`)
 * Inicio de sesión con JWT (`/auth/login`)
 * Autenticación stateless con tokens
 * Control de acceso basado en roles (`ADMIN` y `USER`)
 
-### 📚 Gestión de Libros
+###  Gestión de Libros
 
 * CRUD completo de libros
 * Paginación en consultas
 * Filtro por autor y categoría
 * Acceso público para consulta
 
-### 👤 Gestión de Usuarios
+###  Gestión de Usuarios
 
 * Registro de nuevos usuarios
 * Validación de datos
 * Roles (`USER`, `ADMIN`)
 
-### 🧑‍🎨 Autores y Categorías
+###  Autores y Categorías
 
 * CRUD completo de autores
 * CRUD completo de categorías
 * Consulta de libros por autor y categoría
 * Validaciones con DTOs
 
-### 🛒 Gestión de Órdenes
+###  Gestión de Órdenes
 
 * Creación de pedidos con múltiples libros
 * Cálculo automático del total en el service
 * Estados del pedido (`PENDING`, `CONFIRMED`, `CANCELLED`)
 * Consulta de pedidos propios y globales
 
-### ⚠️ Manejo de Errores
+###  Manejo de Errores
 
 * Manejo global de excepciones (`@RestControllerAdvice`)
 * Respuestas estandarizadas:
@@ -49,7 +49,7 @@ Este proyecto implementa arquitectura por capas, seguridad con JWT, relaciones J
   * `ApiResponse`
   * `ApiErrorResponse`
 
-### 🔄 Flujo Git
+###  Flujo Git
 
 * Uso de ramas:
 
@@ -62,7 +62,7 @@ Este proyecto implementa arquitectura por capas, seguridad con JWT, relaciones J
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 * **Java 17**
 * **Spring Boot**
@@ -75,7 +75,7 @@ Este proyecto implementa arquitectura por capas, seguridad con JWT, relaciones J
 
 ---
 
-## 🧱 Arquitectura
+##  Arquitectura
 
 El proyecto sigue arquitectura por capas:
 
@@ -97,7 +97,7 @@ Separación de responsabilidades:
 
 ---
 
-## 🗂️ Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 com.taller.bookstore
@@ -120,7 +120,7 @@ com.taller.bookstore
 
 ---
 
-## 📊 Diagrama ER
+##  Diagrama ER
 
 El modelo de datos del sistema se representa en el siguiente diagrama:
 
@@ -132,7 +132,7 @@ Este diagrama muestra las relaciones entre las entidades principales:
 
 ---
 
-## ⚙️ Configuración
+##  Configuración
 
 Ejemplo de configuración en `application.yml`:
 
@@ -212,8 +212,7 @@ http://localhost:8080/api/v1/swagger-ui.html
 * `GET /orders`
 * `GET /orders/my`
 
----
-### 
+--- 
 ##  Entregables
 
 * ✔ API REST funcional
@@ -227,6 +226,6 @@ http://localhost:8080/api/v1/swagger-ui.html
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
 **Steveen Baez**
