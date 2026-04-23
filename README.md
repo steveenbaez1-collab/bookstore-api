@@ -124,7 +124,8 @@ com.taller.bookstore
 
 El modelo de datos del sistema se representa en el siguiente diagrama:
 
-![Diagrama ER](docs/er/bookstore_er_diagram.png)
+<img width="1400" height="1265" alt="bookstore_er_diagram" src="https://github.com/user-attachments/assets/5712b086-a01f-4a1e-9492-d9e37bd5127f" />
+
 
 Este diagrama muestra las relaciones entre las entidades principales:
 **User, Book, Author, Category, Order y OrderItem.**
